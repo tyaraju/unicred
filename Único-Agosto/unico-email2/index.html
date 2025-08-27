@@ -4,7 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Unicred Visa Campanha de Sustentação</title>
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <title>Único Programa de Fidelidade - Loyalty</title>
   <style>
     /* Resets básicos */
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -25,6 +27,9 @@
     .preheader { display:none!important; visibility:hidden; opacity:0; color:transparent; height:0; width:0; overflow:hidden; mso-hide:all; }
     .two-col { width: 100%; }
     .two-col .stack { width: 50%; }
+    .ExternalClass * { line-height:100%; }
+    .fixMac { color:inherit !important; }
+    .fixMac a { color:inherit !important; text-decoration:none; }
     @media screen and (max-width: 600px) {
       .outer { width: 100% !important; }
       .stack { display: block !important; width: 100% !important; }
@@ -45,15 +50,21 @@
      
       .hide { text-indent:-99999em; display:none !important; }
       .mobshow { display:inline-block !important; width:auto !important; height:auto !important; overflow:visible !important; float:none !important; visibility:visible !important; border:none !important; mso-hide:all !important; }
+      .cta-plataforma { font-size: 16px !important; }
     } 
     /* Dark mode-friendly tweaks (parcial; suporte varia por cliente) */
     @media (prefers-color-scheme: dark) {
-      body { background-color: #0f1115; }
-      .outer { background-color: #1a1d24 !important; }
-      .text { color: #dddddd !important; }
+      body { background-color: #FFFFFF;}
+      .force-bg-white { background-color: #FFFFFF;}
+      .outer { background-color: #FFFFFF !important; }
+      .text { color: #1a1d24 !important; }
       .h1, .h2 { color: #ffffff !important; }
+      
+      .light-only { display:none !important; }
+      .dark-only  { display:block !important; }
     }
-
+    [data-ogsc] .light-only { display:none !important; }
+    [data-ogsc] .dark-only  { display:block !important; }
     /* Ajuste para ícones sociais */
     .social-icons-table { background-color: #ffffff; }
     .social-icons-table img { width: 32px; height: 32px; object-fit: contain; aspect-ratio: 1 / 1; display: block; }
@@ -66,22 +77,23 @@
       Lorem ipsum dolor que ist &#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;
     </div>
     <center class="wrapper">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" class="table100" align="center">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" class="table100 force-bg-white" align="center">
         <tr>
           <td align="center">
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="" style="background-color: #FFFFFF;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="force-bg-white" style="background-color: #FFFFFF;">
               <!-- Logo -->
               <tr>
                 <td>
                   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFFFFF; padding: 0px 0px;" class="table100 ">
                     <tr>
-                      <td style="">&nbsp;</td>
+                      <td>&nbsp;</td>
                       <td style="" align="center">
                         <a href="https://www.unicred.com.br/solucoes/unico">
-                          <img src="https://raw.githubusercontent.com/tyaraju/unicred/refs/heads/main/Único-Agosto/unico-email2/images/logo-unicred.jpg" alt="Unicred Visa: menos taxas e mais vantagens nas compras" width="320" height="83" />
+                          <img src="https://raw.githubusercontent.com/tyaraju/unicred/refs/heads/main/Único-Agosto/unico-email2/images/logo-unicred.jpg" alt="Unicred Visa: menos taxas e mais vantagens nas compras" width="320" height="83" class="light-only" style="display:block; line-height:0; max-width: 320px;" />
+                          <img src="https://raw.githubusercontent.com/tyaraju/unicred/refs/heads/main/Único-Agosto/unico-email2/images/logo-unicred-inv.jpg" alt="Unicred Visa: menos taxas e mais vantagens nas compras" width="320" height="83" class="dark-only" style="display:none; line-height:0; max-width: 320px;" />
                         </a>
                       </td>
-                      <td style="">&nbsp;</td>
+                      <td>&nbsp;</td>
                     </tr>
                   </table>
                 </td>
@@ -142,11 +154,11 @@
                   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #3C3733; padding: 38px 100px;" class="table80 pad-lr-70">
                     <tr>
                       <td style="">
-                        <table role="presentation" width="119px" cellspacing="0" cellpadding="0" align="center" border="0" style="margin: 0px auto; " class="">
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" align="center" border="0" style="margin: 0px auto;max-width: 325px; " class="">
                           <tr>
                             <td style="text-align: center;" align="center">
                               <a href="https://www.unicred.com.br/solucoes/unico">
-                                <img src="https://raw.githubusercontent.com/tyaraju/unicred/refs/heads/main/Único-Agosto/unico-email2/images/unico.jpg" alt="Unicred Visa: menos taxas e mais vantagens nas compras" width="325" height="95"/>
+                                <img src="https://raw.githubusercontent.com/tyaraju/unicred/refs/heads/main/Único-Agosto/unico-email2/images/unico.jpg" alt="Unicred Visa: menos taxas e mais vantagens nas compras" width="325" height="95" style="max-width: 325px;"/>
                               </a>
                             </td>
                           </tr>
@@ -165,10 +177,10 @@
                     </tr>
                     <tr>
                       <td style="font-family: Arial, sans-serif; font-size: 15px; color:#FFFFFF; line-height:26px; padding: 18px 0 0px; text-align: justify; font-weight: normal">
-                        <table role="presentation" width="119px" cellspacing="0" cellpadding="0" align="center" border="0" style="margin: 0px auto; " class="">
+                        <table role="presentation" width="253" cellspacing="0" cellpadding="0" align="center" border="0" style="margin: 0px auto; width: 253px;" class="">
                           <tr>
                             <td style="text-align: center;" align="center">
-                              <a href="https://www.unicred.com.br/solucoes/unico" target="_blank" style="display:inline-block; font-family:Arial, sans-serif; font-size:18px; font-weight:bolder; color:#FFFFFF; text-decoration:none; padding:6px 17px; border-radius: 0px; background-color:#988543; border-bottom: 4px solid #705400;">
+                              <a href="https://www.unicred.com.br/solucoes/unico" target="_blank" style="display:inline-block; font-family:Arial, sans-serif; font-size:18px; font-weight:bolder; color:#FFFFFF; text-decoration:none; padding:6px 17px; border-radius: 0px; background-color:#988543; border-bottom: 4px solid #705400;" class="cta-plataforma">
                                 ACESSE&nbsp;A&nbsp;PLATAFORMA
                               </a>
                             </td>
@@ -245,7 +257,7 @@
               <!-- Pré Rodapé -->
               <tr>
                 <td>
-                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#ffffff; padding: 37px 62px 22px;" class="table100 two-col pad-lr-70">
+                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#ffffff; padding: 37px 62px 22px;" class="table100 two-col pad-lr-70 force-bg-white">
                     <tr>
                       <td valign="middle" style="font-family: Arial, sans-serif; font-size: 15px; font-weight:bold; color:#000000; line-height: 17px; padding-right: 46px; padding-bottom: 17px;" class="stack">
                         Siga&nbsp;a&nbsp;Unicred nas&nbsp;redes&nbsp;sociais
